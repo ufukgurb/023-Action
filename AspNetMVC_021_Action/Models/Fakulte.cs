@@ -21,7 +21,7 @@ namespace AspNetMVC_021_Action.Models
         [Required]
         public bool Sil { get; set; }
 
-        public string githubkontrol { get; set; }
+    
 
 
     }
