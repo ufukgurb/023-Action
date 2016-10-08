@@ -15,6 +15,7 @@ namespace AspNetMVC_021_Action.DAL
 
         public DbSet<Fakulte> Fakulteler { get; set; }
 
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
