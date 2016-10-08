@@ -18,9 +18,10 @@ namespace AspNetMVC_021_Action.Models
 
 
         [DisplayName("Silindi")]
-
         [Required]
         public bool Sil { get; set; }
+
+        public string githubkontrol { get; set; }
 
 
     }
